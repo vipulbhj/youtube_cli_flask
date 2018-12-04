@@ -2,7 +2,7 @@
 ---
 >An app that would allow "music.youtube.com" to work in India
 
-
+NOTE: For the NWoC participants. If you guys find any issue that is not already created, create an issue in the repo and I'll add the difficulty labels accordingly.
 
 ## List of contents
 - [History](#history)
@@ -23,11 +23,15 @@
 [(Back to top)](#list-of-contents)
 
 ### To start the Flask Server
-* Go to the server directory.
+* It is advised to use a `pipenv` as the already installed versions of vlc might interfere with the ones in the dependencies
 
-* Just use the command `pip3 install -r requirements.txt --user ` to install the dependecies
+* Use the command `pip3 install pipenv`
 
-* And use ` python3 server.py ` to start the server.
+* Now `cd` into server directory via `cd server/`
+
+* Now install the dependenices by using the command `pipenv install`
+
+* To run the server , use the command `pipenv run python3 server.py`
 
 ### To start the React Frontent
 * Go to the frontend directory.
