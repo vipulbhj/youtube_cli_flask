@@ -22,9 +22,19 @@
 ## Installation
 [(Back to top)](#list-of-contents)
 
+### To start the Flask Server
+* Go to the server directory.
+
 * Just use the command `pip3 install -r requirements.txt --user ` to install the dependecies
 
 * And use ` python3 server.py ` to start the server.
+
+### To start the React Frontent
+* Go to the frontend directory.
+
+* Install the dependencies using `npm install --save`
+
+* To start the react app, Use `npm start`.
 
 ## Tech Stack (Expected)
 [(Back to top)](#list-of-contents)
